@@ -16,7 +16,7 @@ openBtn.addEventListener("click", () => {
   storeStatus.classList.add("open");
 
   storeStatus.innerHTML =
-  "🟢 Loja Aberta • Aceitamos Encomendas";
+  "🟢 Aceitamos Encomendas";
 
 });
 
@@ -30,7 +30,7 @@ closeBtn.addEventListener("click", () => {
   storeStatus.classList.add("closed");
 
   storeStatus.innerHTML =
-  "🔴 Loja Fechada • Pedidos Pausados";
+  "🟢 Faça o seu Pedido";
 
 });
 
