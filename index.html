@@ -1,877 +1,471 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atelier do Sabor | Bolos, Doces e Salgados Artesanais</title>
 
-  <title>Atelier do Sabor</title>
+  <meta name="description" content="Bolos, doces e salgados artesanais feitos com carinho. Encomendas para festas e eventos. Consulte pelo WhatsApp!">
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css"/>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 </head>
 
 <body>
-
   <!-- STATUS DA LOJA -->
   <div class="store-status open" id="storeStatus">
-
-    🟢 Horário:   9:00 ás 17:00hs
-
+    🟢 Horário: 9:00 às 17:00h
   </div>
 
   <!-- HEADER -->
   <header>
-
-    <div class="logo">
-      Atelier do Sabor
-    </div>
-
-    <nav>
-
+    <div class="logo">Atelier do Sabor</div>
+    <nav aria-label="Menu principal">
       <a href="#sobre">Sobre</a>
-
       <a href="#produtos">Cardápio</a>
-
       <a href="#encomendas">Encomendas</a>
-
       <a href="#contato">Contato</a>
-
     </nav>
-
   </header>
 
   <!-- HERO -->
-  <section class="hero">
-
-  
-      <div class="banner4">
-        <img
-          src="./img/banner1.png" alt="Banner4">
-      </div>
+  <section class="hero" aria-label="Destaque">
+    <div class="banner4">
+      <img src="./img/banner1.png" alt="Bolos e doces artesanais do Atelier do Sabor">
+    </div>
 
     <div class="hero-content">
+      <span class="badge">Produção Artesanal</span>
 
-      <span class="badge">
-        Produção Artesanal
-      </span>
-
-      <h1>
-        Sabor Artesanal na Sua Porta
-      </h1>
-
+      <h1>Sabor Artesanal na Sua Porta</h1>
       <p>
-        Bolos, doces e salgados feitos com carinho para deixar seus momentos ainda mais especiais.
+        Bolos, doces e salgados feitos com carinho, ingredientes selecionados e aquele toque caseiro que abraça.
       </p>
 
       <div class="hero-buttons">
-
-        <a
-           href="https://wa.me/5521985167454"
-           class="btn btn-primary">
-
-             Consulte pelo WhatsApp
-
-          </a>
-
-        <a href="#produtos" class="btn btn-outline">
-
-          Ver Cardápio
-
+        <a href="https://wa.me/5521985167454" class="btn btn-primary" target="_blank" rel="noopener">
+          Consulte pelo WhatsApp
         </a>
-
+        <a href="#produtos" class="btn btn-outline">
+          Ver Cardápio
+        </a>
       </div>
-
     </div>
-
   </section>
 
   <!-- SOBRE -->
   <section id="sobre" class="section">
-
     <div class="section-title">
-
-      <h2>
-        Feito com Amor e Sabor Artesanal
-      </h2>
-
+      <h2>Feito com Amor e Sabor Artesanal</h2>
       <p>
         Trabalhamos com bolos, doces e salgados artesanais preparados com ingredientes selecionados e muito carinho.
       </p>
-
     </div>
 
     <div class="about-grid">
-
       <div class="about-image">
- <img
-          src="./img/bannercbolo.png" alt="Doces">
-        <img
-          src="./img/1.png" alt="Doces">
-
-              <img
-          src="./img/banner1.png" alt="Doces">
-
+        <img src="./img/bannercbolo.png" alt="Bolo artesanal decorado">
+        <img src="./img/1.png" alt="Doces artesanais sortidos">
+        <img src="./img/banner1.png" alt="Mesa com opções do cardápio">
       </div>
 
       <div class="about-content">
-
         <div class="feature-card">
-
-          <i class="fa-solid fa-cake-candles"></i>
-
+          <i class="fa-solid fa-cake-candles" aria-hidden="true"></i>
           <h3>Encomendas para Festas</h3>
-
           <p>
-            Aceitamos encomendas para aniversários, casamentos, cafés e eventos.
+            Aniversários, casamentos, cafés e eventos: montamos kits e quantidades sob medida para o seu momento.
           </p>
-
         </div>
 
         <div class="feature-card">
+          <i class="fa-solid fa-heart" aria-hidden="true"></i>
+          <h3>Variedade & Produção Artesanal</h3>
 
-          <i class="fa-solid fa-heart"></i>
+          <div class="menu-text">
+            <p><strong>Docinhos Tradicionais:</strong> Beijinho, Paçoca, Ninho, Casadinho, Olho de Sogra, Cajuzinho, Brigadeiro (ao leite, meio amargo e limão).</p>
 
-          <h3>Produção Artesanal</h3>
-         
-          <p>
+            <p><strong>Docinhos Especiais:</strong> Café, Churros, Ninho com Nutella, Capim Santo, Amendoim e Crocante.</p>
 
-           <p><strong>Docinhos Tradicionais:</strong></p>
-Beijinho, Paçoca, Ninho, Casadinho, Olho de Sogra, Cajuzinho, Brigadeiro, Brigadeiro, Meio Amargo, Limão.
+            <p><strong>Bolos Caseiros (redondos):</strong> Chocolate, Cenoura com chocolate, Fubá com goiabada e Laranja.</p>
 
-<p><strong>Docinhos Especiais:</strong></p>
+            <p><strong> Caseirinho:</strong> Chocolate
 
-Café, Churros, Ninho c/Nutella, Capim Santo, Amendoim e Crocante
+            <p><strong>Tortas:</strong> Abacaxi com coco, Chocolate, Brigadeiro, Limão, Morango e Nozes.</p>
 
+            <p><strong>Salgadinhos Assados:</strong> Nata, Pastel de forno, Cachorro-quente de forno e Mini-pizza.</p>
 
-<p><strong>Bolos Caseiros Redondo :</strong></p>
+            <p><strong>Salgadinhos Fritos:</strong> Coxinha, Risoles, Bolinha de queijo e Kibe.</p>
 
-Chocolate, 
-Cenoura com chocolate, 
-Fubá com goiabada e 
-Laranja
+            <p><strong>Quiches Tradicionais:</strong> Frango, Bacalhau, Alho-poró e Damasco com Brie.</p>
 
-
-<p><strong>Pudim :</strong></p>
-
-Leite, 
-Café,  
-Laranja e 
-Milho
-
-
-<p><strong>Tortas :</strong></p>
-
-Abacaxi com coco, 
-Chocolate,  
-Brigadeiro,  
-Limão,   
-Morango e   
-Nozes  
-          </p>
-
- <p><strong> Salgadinhos Assados:</strong></p>
-Nata, 
-Pastel de Forno, 
-Cachorro-Quente de Forno e 
-Mini-Pizza
-
- <p><strong> Salgadinhos Fritos:</strong></p>
-Salgadinhos Fritos:
-Fritos : coxinhas ,risoles,bolinha de queijo, kibe.
-
-  <p><strong>Quiches Tradicionais:</strong></p>
-Frango,
-Bacalhau, 
-Alho Poró e 
-Damasco com Brie
-
-   <p><strong>Bolos Salgados:</strong></p>
- Frango e
-Bacalhau
-
+            <p><strong>Bolos Salgados:</strong> Frango e Bacalhau.</p>
+          </div>
         </div>
-
       </div>
-
     </div>
-
   </section>
 
   <!-- ENCOMENDAS -->
   <section id="encomendas" class="section dark-section">
-
     <div class="section-title">
-
-      <h2>
-        Aceitamos Encomendas
-      </h2>
-
-      <p>
-        Faça sua encomenda personalizada pelo WhatsApp.
-      </p>
-
+      <h2>Aceitamos Encomendas</h2>
+      <p>Faça sua encomenda personalizada pelo WhatsApp.</p>
     </div>
 
     <div class="order-box">
-
-      <div class="order-item">
-
-        🎂 Bolos Personalizados
-
-      </div>
-
-      <div class="order-item">
-
-        🍬 Docinhos para Festas
-
-      </div>
-
-      <div class="order-item">
-
-        🥟 Salgados por Cento
-
-      </div>
-
-      <div class="order-item">
-
-        🎉 Kits para Eventos
-
-      </div>
-
+      <div class="order-item">🎂 Bolos Personalizados</div>
+      <div class="order-item">🍬 Docinhos para Festas</div>
+      <div class="order-item">🥟 Salgados por cento</div>
+      <div class="order-item">🎉 Kits para Eventos</div>
     </div>
 
     <div class="center">
-  
-  <a
-             href="https://wa.me/5521985167454"
-           class="btn btn-primary">
-
-             Consulte pelo WhatsApp
-
-          </a>
-
+      <a href="https://wa.me/5521985167454" class="btn btn-primary" target="_blank" rel="noopener">
+        Consulte pelo WhatsApp
+      </a>
     </div>
-
   </section>
 
   <!-- PRODUTOS -->
-  <div id="produtos" class="section">
-
+  <section id="produtos" class="section" aria-label="Cardápio de produtos">
     <div class="section-title">
-
-      <h2>
-        Nosso Cardápio
-      </h2>
-
+      <h2>Nosso Cardápio</h2>
     </div>
 
     <div class="products-grid">
-
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <!-- BOTÃO PAUSAR -->
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 1 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Bolo de Coco">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/bolo0.jpeg"
-        alt="Bolo">
-
+        <img src="./img/bolo0.jpeg" alt="Bolo de coco artesanal">
         <div class="product-info">
-
           <h3>Bolo de Coco</h3>
-
           <p>
-            Massa fofinha com cobertura cremosa.
+            Massa macia e úmida, com sabor de coco bem presente e finalização cremosa. Ideal para café da tarde e comemorações.
           </p>
-
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
+      </article>
 
-      </div>
-
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 2 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Bolo de Milho com Goiabada">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/bolodemilhocgoiab.jpg"
-          alt="Brigadeiro">
-
+        <img src="./img/bolodemilhocgoiab.jpg" alt="Bolo de milho com goiabada">
         <div class="product-info">
-
-          <h3>Bolo de Milho c/ Goibada</h3>
-
+          <h3>Bolo de Milho com Goiabada</h3>
           <p>
-            Massa fofinha .
+            Sabor de roça: bolo de milho bem fofinho com pedaços de goiabada derretendo. Combina demais com café fresquinho.
           </p>
-
-          
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
+      </article>
 
-      </div>
-
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <!-- BOTÃO PAUSAR -->
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 3 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Bolo de Chocolate ou Laranja">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/bolochoc-laran.jpeg"
-        alt="Bolo">
-
+        <img src="./img/bolochoc-laran.jpeg" alt="Bolo artesanal sabor chocolate ou laranja">
         <div class="product-info">
-
-          <h3>Bolo de Chocolate ou de Laranja </h3>
-
+          <h3>Bolo de Chocolate ou Laranja</h3>
           <p>
-            Massa fofinha com cobertura cremosa.
+            Duas opções irresistíveis: chocolate intenso e aconchegante ou laranja perfumada e leve. Perfeito para qualquer ocasião.
           </p>
-
-         
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
+      </article>
 
-      </div>
-
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 4 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Torta de Maçã">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/tortamaçã.JPG"
-          alt="Brigadeiro">
-
+        <img src="./img/tortamaçã.JPG" alt="Torta de maçã">
         <div class="product-info">
-
           <h3>Torta de Maçã</h3>
-
           <p>
-            Massa fofinha com cobertura cremosa..
+            Recheio de maçãs com sabor caseiro e textura equilibrada, perfeita para servir gelada ou levemente aquecida.
           </p>
-
-          
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
+      </article>
 
-      </div>
-
-      
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <!-- BOTÃO PAUSAR -->
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 5 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Torta de Limão">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/tortalimao.jpeg"
-        alt="Bolo">
-
+        <img src="./img/tortalimao.jpeg" alt="Torta de limão">
         <div class="product-info">
-
           <h3>Torta de Limão</h3>
-
           <p>
-            Massa fofinha com cobertura cremosa.
+            Cremosa e refrescante, com aquele azedinho na medida e finalização suave. Uma das favoritas para dias quentes.
           </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
             Consulte pelo WhatsApp
-
           </a>
-
         </div>
+      </article>
 
-      </div>
-
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 6 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Torta de Nozes com Baba de Moça">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/nozes.JPG"
-          alt="Brigadeiro">
-
+        <img src="./img/nozes.JPG" alt="Torta de nozes com baba de moça">
         <div class="product-info">
-
-          <h3>Torta de Nozes c/ Baba de Moça</h3>
-
+          <h3>Torta de Nozes com Baba de Moça</h3>
           <p>
-           Massa fofinha com cobertura cremosa..
+            Clássico elegante: cremosidade da baba de moça com o crocante e o sabor marcante das nozes. Perfeita para datas especiais.
           </p>
-
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
-      </div>
-    
-      
-      <!-- PRODUTO -->
-      <div class="product-card">
+      </article>
 
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 7 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Torta de Chocolate">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/chocolate.JPG"
-          alt="Brigadeiro">
-
+        <img src="./img/chocolate.JPG" alt="Torta de chocolate">
         <div class="product-info">
-
           <h3>Torta de Chocolate</h3>
-
           <p>
-            Massa fofinha com cobertura cremosa..
+            Chocolate cremoso e intenso, com textura aveludada. A escolha certa para quem ama sobremesa bem chocolatuda.
           </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
+      </article>
 
-      </div>
-    
-      <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 8 -->
+      <article class="product-card">
+            <button class="pause-btn" type="button" aria-label="Pausar produto Torta de Morango">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/morango.JPG"
-          alt="Brigadeiro">
-
+        <img src="./img/morango.JPG" alt="Torta de morango">
         <div class="product-info">
-
           <h3>Torta de Morango</h3>
-
           <p>
-           Massa fofinha com cobertura cremosa.
+            Leve, delicada e irresistível: creme suave com morangos selecionados, perfeita para encantar na sobremesa.
           </p>
-
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
-      </div>
-    
-      
-      <!-- PRODUTO -->
-      <div class="product-card">
+      </article>
 
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 9 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Pudim de Milho">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/pudim-de-milho.jpeg"
-          alt="Brigadeiro">
-
+        <img src="./img/pudim-de-milho.jpeg" alt="Pudim de milho">
         <div class="product-info">
-
           <h3>Pudim de Milho</h3>
-
-          Massa cremosa. 
-          </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
-          </a>
-
-        </div>
-
-      </div>
-    
-     <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
-          Pausar Produto
-
-        </button>
-
-        <img
-          src="./img/bolinho.JPG"
-          alt="Brigadeiro">
-
-        <div class="product-info">
-
-          <h3>Caseirnho de Chocolate</h3>
-
           <p>
-           Massa fofinha com cobertura cremosa.
+            Cremoso e bem lisinho, com sabor de milho que lembra festa junina o ano inteiro. Doce na medida certa.
           </p>
-
-          <a
-           href="https://wa.me/5521985167454"
-            class="btn-whats">
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
             Consulte pelo WhatsApp
-
           </a>
-
         </div>
-      </div>
-    
-        
-      <!-- PRODUTO -->
-      <div class="product-card">
+      </article>
 
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 10 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Caseirinho de Chocolate">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/docinhos.jpg"
-          alt="Brigadeiro">
-
+        <img src="./img/bolinho.JPG" alt="Bolo caseirinho de chocolate">
         <div class="product-info">
-
-          <h3>Docinhos</h3>
-
-          Tradicionais e Especiais. 
+          <h3>Caseirinho de Chocolate</h3>
+          <p>
+            Perfeito para matar a vontade: massa fofinha e saborosa, com aquele gostinho de bolo feito em casa.
           </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
             Consulte pelo WhatsApp
-
           </a>
-
         </div>
+      </article>
 
-      </div>
-    
-     <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 11 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Docinhos">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/bolosal.jpg"
-          alt="Bolo Salgado">
-
+        <img src="./img/docinhos.jpg" alt="Docinhos artesanais para festa">
         <div class="product-info">
+          <h3>Docinhos (Tradicionais e Especiais)</h3>
+          <p>
+            Perfeitos para festas e lembrancinhas: variedade de sabores, acabamento caprichado e aquele sabor que dá vontade de repetir.
+          </p>
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
+          </a>
+        </div>
+      </article>
 
+      <!-- 12 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Bolo Salgado">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
+          Pausar Produto
+        </button>
+
+        <img src="./img/bolosal.jpg" alt="Bolo salgado">
+        <div class="product-info">
           <h3>Bolo Salgado</h3>
-
           <p>
-           Massa Saborosa.
+            Massa leve e bem temperada, recheio generoso e ótimo rendimento. Ideal para reuniões, lanches e eventos.
           </p>
-
-          <a
-             href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
-      </div>
+      </article>
 
-            <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 13 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Salgadinhos">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/salgado.jpg"
-          alt="Salgado">
-
+        <img src="./img/salgado.jpg" alt="Salgadinhos para festa">
         <div class="product-info">
-
           <h3>Salgadinhos</h3>
-
-          Tradicionais . 
+          <p>
+            Assados ou fritos, sempre sequinhos e saborosos. Ideal para aniversários, eventos ou aquele lanche especial.
           </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-         Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
+      </article>
 
-      </div>
-    
-     <!-- PRODUTO -->
-      <div class="product-card">
-
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 14 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Bolo de Aniversário">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/boloniver.jpg"
-          alt="Brigadeiro">
-
+        <img src="./img/boloniver.jpg" alt="Bolo de aniversário decorado">
         <div class="product-info">
-
           <h3>Bolo de Aniversário</h3>
-
           <p>
-           Massa fofinha com cobertura cremosa.
+            Personalizado do seu jeito: massa fofinha, recheio equilibrado e decoração caprichada para o seu dia ficar inesquecível.
           </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-             Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
-      </div>
-        
-            <!-- PRODUTO -->
-      <div class="product-card">
+      </article>
 
-        <button class="pause-btn">
-
-          <i class="fa-solid fa-eye-slash"></i>
-
+      <!-- 15 -->
+      <article class="product-card">
+        <button class="pause-btn" type="button" aria-label="Pausar produto Quiche de Alho-poró">
+          <i class="fa-solid fa-eye-slash" aria-hidden="true"></i>
           Pausar Produto
-
         </button>
 
-        <img
-          src="./img/quiche.jpg"
-          alt="Quiche de Alho-Poró">
-
+        <img src="./img/quiche.jpg" alt="Quiche de alho-poró">
         <div class="product-info">
-
-          <h3>Quiche de Alho-Poró</h3>
-
+          <h3>Quiche de Alho-poró</h3>
           <p>
-            Massa Saborosa .
+            Massa delicada com recheio cremoso e aromático. Ótima para servir em fatias, do brunch ao lanche da tarde.
           </p>
-
-          <a
-            href="https://wa.me/5521985167454"
-            class="btn-whats">
-
-           Consulte pelo WhatsApp
-
+          <a href="https://wa.me/5521985167454" class="btn-whats" target="_blank" rel="noopener">
+            Consulte pelo WhatsApp
           </a>
-
         </div>
-      </div>
-    </div>    
-
+      </article>
+    </div>
   </section>
 
   <!-- CONTROLE LOJA -->
-  <section class="section">
-
+  <section class="section" aria-label="Informações de atendimento">
     <div class="section-title">
-
-      <h2>
-         Agradecemos sua Preferência 
-      </h2>
-
-         </div>
-
-    <div class="store-controls">
-
-      <button id="openStore" class="btn btn-open">
-
-     Horário: 9:00 ás  17:00hs
-
-      </button>
-
-      <button id="closeStore" class="btn btn-close">
-
-       Pedido pelo whatsapp ->
-
-     </button>
-
+      <h2>Agradecemos sua preferência</h2>
     </div>
 
+    <div class="store-controls">
+      <button id="openStore" class="btn btn-open" type="button">
+        Horário: 9:00 às 17:00h
+      </button>
+
+      <button id="closeStore" class="btn btn-close" type="button">
+        Pedido pelo WhatsApp →
+      </button>
+    </div>
   </section>
 
   <!-- FOOTER -->
   <footer id="contato">
-
     <h2>Atelier do Sabor</h2>
-
-    <p>
-      📱 WhatsApp: (21) 98516-7454"
-    </p>
-
-    <p>
-      📍 Entregas sob consulta 
-    </p>
-
-    <p>
-      ⏰ Atendimento: Segunda a Sábado
-    </p>
-
-    <p>
-      Feito artesanalmente com amor.
-    </p>
-
+    <p>📱 WhatsApp: (21) 98516-7454</p>
+    <p>📍 Entregas sob consulta</p>
+    <p>⏰ Atendimento: Segunda a Sábado</p>
+    <p>Feito artesanalmente com amor.</p>
   </footer>
 
   <!-- BOTÃO FLUTUANTE -->
-  <a
-    href="https://wa.me/5521985167454"
-    class="floating-whatsapp">
-
-    <i class="fab fa-whatsapp"></i>
-
+  <a href="https://wa.me/5521985167454"
+     class="floating-whatsapp"
+     target="_blank"
+     rel="noopener"
+     aria-label="Falar no WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
   </a>
 
   <!-- JS -->
   <script src="script.js"></script>
-
 </body>
 </html>
